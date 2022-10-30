@@ -304,14 +304,14 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 40px;
-    margin: 0 5px 0 0;
+        margin: 0 5px 0 0;
     display: inline;
-    width : 300px;
+    
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    width: 300px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
@@ -851,8 +851,6 @@ h3 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.avif");
-
-    
 }
 
 .bg-presentation {
@@ -1110,7 +1108,7 @@ list-style: none;
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
+  
 }
 
 @media (max-width: 400px) {
